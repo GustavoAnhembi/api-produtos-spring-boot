@@ -1,0 +1,8 @@
+COMO RODAR
+1) Precisa de Java 17+ instalado (java -version).
+2) Abra esta pasta na IDE (IntelliJ: File > Open > selecione o pom.xml > Open as Project).
+   Aguarde o Maven baixar as dependencias.
+3) Execute a classe SeuprojetoApplication (botao Run).
+4) Quando aparecer "Tomcat started on port 8080", teste no Postman:
+   http://localhost:8080/produtos
+Pelo terminal (se tiver Maven instalado): mvn spring-boot:run
